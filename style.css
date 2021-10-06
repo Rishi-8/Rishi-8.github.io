@@ -444,7 +444,7 @@ img{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(60deg,#29323c 0%, #485563 100%);
-    opacity: .7;
+    opacity: .2;
 }
 
 #projects .project-img{
@@ -454,6 +454,11 @@ img{
 #projects .project-item:hover .project-img{
     transform: scale(1.1);
 }
+
+#projects .project-img:after #myImg{
+    cursor: pointer;
+}
+
 /* End Project Section */
 
 /* about section */
